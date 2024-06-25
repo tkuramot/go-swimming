@@ -1,7 +1,7 @@
 package piscine
 
 func StrLen(s string) int {
-	l := 0
+	var l int
 	for range s {
 		l++
 	}

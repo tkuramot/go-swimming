@@ -1,7 +1,7 @@
 package piscine
 
 func sliceLen(s []int) int {
-	l := 0
+	var l int
 	for range s {
 		l++
 	}
