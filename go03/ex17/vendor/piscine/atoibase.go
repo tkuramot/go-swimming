@@ -35,6 +35,7 @@ func isBaseValid(base string) bool {
 	return true
 }
 
+// string s is guaranteed to be valid according to the subject
 func AtoiBase(s string, base string) int {
 	if !isBaseValid(base) {
 		return 0
