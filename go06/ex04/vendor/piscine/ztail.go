@@ -17,7 +17,7 @@ func Ztail(args []string, numBytes int64) bool {
 
 		s, ok := tail(file, numBytes)
 		if ok {
-			if len(args) > 1 {
+			if Len(args) > 1 {
 				Println("==> " + arg + " <==")
 			}
 			Print(*s)
